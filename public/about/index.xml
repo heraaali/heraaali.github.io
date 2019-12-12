@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>About on Heraa Ali</title>
+    <link>http://www.heraaali.com/about/</link>
+    <description>Recent content in About on Heraa Ali</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 11 Dec 2019 20:45:39 -0800</lastBuildDate>
+    
+	<atom:link href="http://www.heraaali.com/about/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>About</title>
+      <link>http://www.heraaali.com/about/about/</link>
+      <pubDate>Wed, 11 Dec 2019 20:45:39 -0800</pubDate>
+      
+      <guid>http://www.heraaali.com/about/about/</guid>
+      <description>Hi, I’m Heraa.
+I am a software engineer at Intel. Before that, I studied applied mathematics at UC Berkeley. I am especially interested in the space where math, coding, and communication meet up and hang out.
+When I’m not building products, you can find me doing yoga, reading, or traveling somewhere new.
+Feel free to drop a line if you’d like to connect!</description>
+    </item>
+    
+  </channel>
+</rss>

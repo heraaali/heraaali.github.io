@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+	
+	<sitemap>
+	   	<loc>http://www.heraaali.com/en/sitemap.xml</loc>
+		
+	   	<lastmod>2019-12-11T20:45:39-08:00</lastmod>
+		
+	</sitemap>
+	
+	<sitemap>
+	   	<loc>http://www.heraaali.com/de/sitemap.xml</loc>
+		
+	</sitemap>
+	
+	<sitemap>
+	   	<loc>http://www.heraaali.com/fr/sitemap.xml</loc>
+		
+	</sitemap>
+	
+	<sitemap>
+	   	<loc>http://www.heraaali.com/pl/sitemap.xml</loc>
+		
+	</sitemap>
+	
+	<sitemap>
+	   	<loc>http://www.heraaali.com/pt/sitemap.xml</loc>
+		
+	</sitemap>
+	
+</sitemapindex>
