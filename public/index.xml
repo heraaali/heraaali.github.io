@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Heraa Ali</title>
@@ -13,10 +13,10 @@
     
     <item>
       <title>About</title>
-      <link>http://www.heraaali.com/about/about/</link>
+      <link>http://www.heraaali.com/about/</link>
       <pubDate>Wed, 11 Dec 2019 20:45:39 -0800</pubDate>
       
-      <guid>http://www.heraaali.com/about/about/</guid>
+      <guid>http://www.heraaali.com/about/</guid>
       <description>Hi, I’m Heraa.
 I am a software engineer at Intel. Before that, I studied applied mathematics at UC Berkeley. I am especially interested in the space where math, coding, and communication meet up and hang out.
 When I’m not building products, you can find me doing yoga, reading, or traveling somewhere new.
@@ -26,11 +26,10 @@ Feel free to drop a line if you’d like to connect!</description>
     <item>
       <title>Git Cheat Sheet</title>
       <link>http://www.heraaali.com/blog/git/</link>
-      <pubDate>Wed, 11 Dec 2019 20:32:30 -0800</pubDate>
+      <pubDate>Wed, 11 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>http://www.heraaali.com/blog/git/</guid>
-      <description>Git can get a little confusing when you’re first starting out. Here’s a list of commands to use as a reference - I’ve included the basic commands, and a few that I can never seem to remember!
-   Command Description     git status Check the status of the current branch.   git branch List the current branches.   git pull Get changes from a remote branch.</description>
+      <description>&lt;p&gt;Git can get a little confusing when you’re first starting out. Here’s a list of commands to use as a reference - I’ve included the basic commands, and a few that I can never seem to remember!&lt;/p&gt;</description>
     </item>
     
   </channel>

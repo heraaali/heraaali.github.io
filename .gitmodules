@@ -1,3 +1,15 @@
 [submodule "themes/hugo-future-imperfect-slim"]
 	path = themes/hugo-future-imperfect-slim
 	url = https://github.com/pacollins/hugo-future-imperfect-slim.git
+[submodule "test/themes/hugo-future-imperfect-slim"]
+	path = test/themes/hugo-future-imperfect-slim
+	url = https://github.com/pacollins/hugo-future-imperfect-slim.git
+[submodule "themes/ananke"]
+	path = themes/ananke
+	url = https://github.com/budparr/gohugo-theme-ananke.git
+[submodule "themes/academic-kickstart"]
+	path = themes/academic-kickstart
+	url = https://github.com/sourcethemes/academic-kickstart.git
+[submodule "themes/--force"]
+	path = themes/--force
+	url = https://github.com/pacollins/hugo-future-imperfect-slim.git
