@@ -17,7 +17,8 @@
       <pubDate>Wed, 11 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>http://www.heraaali.com/blog/git/</guid>
-      <description>&lt;p&gt;Git can get a little confusing when you’re first starting out. Here’s a list of commands to use as a reference - I’ve included the basic commands, and a few that I can never seem to remember!&lt;/p&gt;</description>
+      <description>Git can get a little confusing when you’re first starting out. Here’s a list of commands to use as a reference - I’ve included the basic commands, and a few that I can never seem to remember!
+   Command Description     git status Check the status of the current branch.   git branch List the current branches.   git pull Get changes from a remote branch.</description>
     </item>
     
   </channel>

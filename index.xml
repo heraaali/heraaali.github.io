@@ -6,7 +6,7 @@
     <description>Recent content on Heraa Ali</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 11 Dec 2019 20:45:39 -0800</lastBuildDate>
+    <lastBuildDate>Wed, 11 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.heraaali.com/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>About</title>
       <link>http://www.heraaali.com/about/</link>
-      <pubDate>Wed, 11 Dec 2019 20:45:39 -0800</pubDate>
+      <pubDate>Wed, 11 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>http://www.heraaali.com/about/</guid>
       <description>Hi, I’m Heraa.
@@ -29,7 +29,8 @@ Feel free to drop a line if you’d like to connect!</description>
       <pubDate>Wed, 11 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>http://www.heraaali.com/blog/git/</guid>
-      <description>&lt;p&gt;Git can get a little confusing when you’re first starting out. Here’s a list of commands to use as a reference - I’ve included the basic commands, and a few that I can never seem to remember!&lt;/p&gt;</description>
+      <description>Git can get a little confusing when you’re first starting out. Here’s a list of commands to use as a reference - I’ve included the basic commands, and a few that I can never seem to remember!
+   Command Description     git status Check the status of the current branch.   git branch List the current branches.   git pull Get changes from a remote branch.</description>
     </item>
     
   </channel>

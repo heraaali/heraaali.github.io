@@ -4,37 +4,7 @@
   
   <url>
     <loc>http://www.heraaali.com/about/</loc>
-    <lastmod>2019-12-11T20:45:39-08:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>http://www.heraaali.com/</loc>
-    <lastmod>2019-12-11T20:45:39-08:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="de"
-                href="http://www.heraaali.com/de/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="http://www.heraaali.com/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pl"
-                href="http://www.heraaali.com/pl/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="pt"
-                href="http://www.heraaali.com/pt/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="http://www.heraaali.com/"
-                />
+    <lastmod>2019-12-11T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -75,6 +45,36 @@
   <url>
     <loc>http://www.heraaali.com/blog/git/</loc>
     <lastmod>2019-12-11T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://www.heraaali.com/</loc>
+    <lastmod>2019-12-11T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="de"
+                href="http://www.heraaali.com/de/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="http://www.heraaali.com/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pl"
+                href="http://www.heraaali.com/pl/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="pt"
+                href="http://www.heraaali.com/pt/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="http://www.heraaali.com/"
+                />
   </url>
   
   <url>
