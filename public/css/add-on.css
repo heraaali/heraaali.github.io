@@ -1,3 +1,8 @@
 #mini-bio {
 	visibility: hidden
 }
+
+.post > p{
+	    padding-top: inherit;
+    	padding-bottom: inherit;
+}
