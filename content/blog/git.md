@@ -1,7 +1,7 @@
 +++
 categories = ["shortcuts and commands"]
 date = "2019-12-11"
-description = ""
+description = "A brief guide to using git with the command line."
 title = "Git Cheat Sheet"
 type = "post"
 
