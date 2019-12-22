@@ -5,10 +5,20 @@
     <link>http://www.heraaali.com/</link>
     <description>Recent content on Heraa Ali</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 11 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 21 Dec 2019 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.heraaali.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Making a Website</title>
+      <link>http://www.heraaali.com/blog/hugo/</link>
+      <pubDate>Sat, 21 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.heraaali.com/blog/hugo/</guid>
+      <description>To make this website, I used the Hugo static site generator and am hosting my site on GitHub pages. What does that mean?
+GitHub Pages allows you to host a static site, either on the github.io domain or a custom domain, and is free if you have a GitHub account. I created a GitHub user/organization page, which means that my site is available at &amp;lt;username&amp;gt;.github.io. The steps are outlined in the documentation for GitHub pages.</description>
+    </item>
     
     <item>
       <title>About</title>
