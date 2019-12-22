@@ -3,6 +3,14 @@
 }
 
 .post > p{
-	    padding-top: inherit;
-    	padding-bottom: inherit;
+	padding-top: inherit;
+   	padding-bottom: inherit;
+}
+
+.post>footer .stats li ul li a {
+	overflow:inherit;
+}
+
+a.button.big{
+	width: auto;
 }
