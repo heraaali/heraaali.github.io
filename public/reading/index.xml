@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Good Reads on Heraa Ali</title>
+    <link>http://www.heraaali.com/reading/</link>
+    <description>Recent content in Good Reads on Heraa Ali</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Sun, 22 Dec 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.heraaali.com/reading/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+  </channel>
+</rss>

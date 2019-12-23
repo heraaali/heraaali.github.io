@@ -9,6 +9,11 @@ googleAnalytics         = "UA-145071839-1"
 pluralizeListTitles     = false
 disableLanguages        = [""]
 
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  reading = "reading"
+
 [params]
   mainSections = ["blog", "post"]
   # Loads CSS and JavaScript files. The variable is an array so that you can load
@@ -133,6 +138,13 @@ disableLanguages        = [""]
     url               = "/categories/"
     pre               = "<i class='fas fa-sitemap'></i>"
     weight            = 5
+
+  [[menu.main]]
+    name              = "Currently Reading"
+    identifier        = "reading"
+    url               = "/reading/"
+    pre               = "<i class='fas fa-book'></i>"
+    weight            = 6
 
 
 # Sets Social Media icons to appear and link to your account. Value should be your
