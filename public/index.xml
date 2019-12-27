@@ -27,7 +27,7 @@ GitHub Pages allows you to host a static site, either on the github.io domain or
       
       <guid>http://www.heraaali.com/about/</guid>
       <description>Hi, I’m Heraa.
-I am a software engineer at Intel. Before that, I studied applied mathematics at the University of California, Berkeley. I am particularly interested in the space where math, coding, and communication meet up and hang out. I love what I do, so I made this website to talk about side projects &amp;amp; to share tutorials from what I&#39;ve learned along the way.
+I am a software engineer at Intel. Before that, I studied applied mathematics at the University of California, Berkeley. I made this website to talk about side projects &amp;amp; to share tutorials from what I&#39;ve learned along the way. More than anything, I am interested in exploring the space where math, coding, and communication meet up and hang out.
 When I’m not building products, you can find me doing yoga, reading, or traveling somewhere new.</description>
     </item>
     
@@ -37,8 +37,8 @@ When I’m not building products, you can find me doing yoga, reading, or travel
       <pubDate>Wed, 11 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>http://www.heraaali.com/blog/git/</guid>
-      <description>Git can get a little confusing when you’re first starting out. Here’s a list of commands to use as a reference - I’ve included the basic commands, and a few that I can never seem to remember!
-   Command Description     git status Check the status of the current branch.   git branch List the current branches.   git pull Get changes from a remote branch.</description>
+      <description>Mastering source control is essential for a software developer, but Git can get a little confusing when you’re first starting out. Here is a list of commands to use as a reference &amp;ndash; I&#39;ve included all the basics you would need to use Git from the command line.
+   Command Description     git status Check the status of the current branch.   git branch List the current branches.</description>
     </item>
     
   </channel>

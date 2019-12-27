@@ -7,7 +7,7 @@ type = "post"
 
 +++
 
-Git can get a little confusing when you’re first starting out. Here’s a list of commands to use as a reference - I’ve included the basic commands, and a few that I can never seem to remember!
+Mastering source control is essential for a software developer, but Git can get a little confusing when you’re first starting out. Here is a list of commands to use as a reference -- I've included all the basics you would need to use Git from the command line.
 
 
 | Command | Description |

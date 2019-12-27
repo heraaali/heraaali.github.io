@@ -14,7 +14,10 @@ disableLanguages        = [""]
   tag = "tags"
   reading = "reading"
 
+
+
 [params]
+
   mainSections = ["blog", "post"]
   # Loads CSS and JavaScript files. The variable is an array so that you can load
   # multiple/additional files if necessary. The standard theme files can be loaded
@@ -62,7 +65,7 @@ disableLanguages        = [""]
   # required for proper functionality. HTML is supported within the params.
   [params.intro]
     header                = "Heraa Ali"
-    paragraph             = "Software developer, writer, & happy just because."
+    paragraph             = "Software developer, writer, & currently nomadic."
     rssIntro              = true
     socialIntro           = true
 
