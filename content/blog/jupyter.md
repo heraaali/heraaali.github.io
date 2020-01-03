@@ -11,7 +11,7 @@ draft = false
 I use Jupyter Notebook both at my day job and for my own projects - if you've used it, you know it's a great tool for data cleaning, visualization, and quick scratch work. And I discovered shortcuts for it entirely by accident: I hit D twice and, to my horror, deleted a cell. Can’t win them all, but you can learn a host of useful shortcuts!
 
 ### Note
-Jupyter Notebooks have two different keyboard input modes.  
+Jupyter Notebook has two different keyboard input modes.  
 
 **Command mode** - binds the keyboard to notebook-level actions. Indicated by a grey cell border with a blue left margin. Press esc to enable.  
 
