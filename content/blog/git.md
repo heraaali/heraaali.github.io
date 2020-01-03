@@ -22,3 +22,4 @@ git push -u origin remote-branch | Create a remote branch from a local branch.
 git checkout -b feature-branch | Create a new feature branch.
 git reset | Undo all adds.
 git reset ~HEAD | Reset to last checkout.
+git commend --amend | combine staged changes with the previous commit to replace the last commit

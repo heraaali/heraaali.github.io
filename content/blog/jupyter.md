@@ -1,20 +1,20 @@
 +++
 categories = ["shortcuts and commands"]
-date = "2019-12-22"
+date = "2020-01-02"
 description = "Helpful shortcuts for Jupyter Notebook users."
 title = "Jupyter Notebook Tips"
 type = "post"
-draft = true
+draft = false
 
 +++
 
-I discovered shortcuts for Jupyter Notebook entirely by accident - I hit D twice and, to my horror, deleted a cell. Can’t win them all, but you can learn a host of useful shortcuts!
-
-If you don't already use Jupyter, I highly recommend it. I often use it as a playground for dealing with unfamiliar data. I've found it a great tool for data cleaning, visualization, and quick scratch work. I also like how convenient it is to share a notebook, since you can easily turn the file into a polished PDF.
+I use Jupyter Notebook both at my day job and for my own projects - if you've used it, you know it's a great tool for data cleaning, visualization, and quick scratch work. And I discovered shortcuts for it entirely by accident: I hit D twice and, to my horror, deleted a cell. Can’t win them all, but you can learn a host of useful shortcuts!
 
 ### Note
 Jupyter Notebooks have two different keyboard input modes.  
+
 **Command mode** - binds the keyboard to notebook-level actions. Indicated by a grey cell border with a blue left margin. Press esc to enable.  
+
 **Edit mode** - this is when you’re typing in a cell and is indicated by a green cell border. Press enter to enable.
 ## Shortcuts:
 If you are using a Windows OS, replace the `cmd` with `ctrl`.
@@ -39,4 +39,4 @@ M | Change cell to markdown mode
 |---------|-------------|
 cmd + click | Multi-cursor editing
 cmd + / | Toggle comment lines
-ctrl + shift | Split cell
+cmd + shift | Split cell

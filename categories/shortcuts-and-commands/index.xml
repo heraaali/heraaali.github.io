@@ -5,10 +5,20 @@
     <link>http://www.heraaali.com/categories/shortcuts-and-commands/</link>
     <description>Recent content in shortcuts and commands on Heraa Ali</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Wed, 11 Dec 2019 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 02 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.heraaali.com/categories/shortcuts-and-commands/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Jupyter Notebook Tips</title>
+      <link>http://www.heraaali.com/blog/jupyter/</link>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.heraaali.com/blog/jupyter/</guid>
+      <description>I use Jupyter Notebook both at my day job and for my own projects - if you&#39;ve used it, you know it&#39;s a great tool for data cleaning, visualization, and quick scratch work. And I discovered shortcuts for it entirely by accident: I hit D twice and, to my horror, deleted a cell. Can’t win them all, but you can learn a host of useful shortcuts!
+Note Jupyter Notebooks have two different keyboard input modes.</description>
+    </item>
     
     <item>
       <title>Git Cheat Sheet</title>
