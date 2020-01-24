@@ -9,10 +9,10 @@ reading = "test"
 
 +++
 
-Currently reading: _The Body Keeps the Score_ by Bessel van der Kolk.
+Currently reading: _The Body Keeps the Score_ by Bessel van der Kolk and _You Think It, I'll Say It_ by Curtis Sittenfeld.
 
-Just finished: _Things You Save in a Fire_ by Katherine Center.
+Just finished: _Recursion_ by Blake Crouch.
 
 Next on my list: _Whisper Network_ by Chandler Baker.
 
-2019 Book Count: **31**
+2020 Book Count: **1**
