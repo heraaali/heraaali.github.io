@@ -1,6 +1,6 @@
 +++
 categories = "good reads"
-date = "2019-12-22"
+date = "2020-01-25"
 description = "Join my book club!"
 title = "Good Reads"
 type = ""
@@ -13,6 +13,4 @@ Currently reading: _The Body Keeps the Score_ by Bessel van der Kolk and _You Th
 
 Just finished: _Recursion_ by Blake Crouch.
 
-Next on my list: _Whisper Network_ by Chandler Baker.
-
-2020 Book Count: **1**
+2020 Book Count: **3**
