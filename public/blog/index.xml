@@ -5,10 +5,20 @@
     <link>http://www.heraaali.com/blog/</link>
     <description>Recent content in Blog on Heraa Ali</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 02 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 30 Jan 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.heraaali.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Spotify Data Analysis</title>
+      <link>http://www.heraaali.com/blog/spotify/</link>
+      <pubDate>Thu, 30 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.heraaali.com/blog/spotify/</guid>
+      <description>After Spotify did their end-of-the-year summary of my listening history, I was inspired to do more analysis on my listening data. Instead of just including the output of my work, I am going to go through my code to provide an easy-to-follow resource if you&#39;re a programmer who is new to Python.
+If you request it, Spotify will let you download a year&#39;s worth of listening history. I was so excited by all this data that I told my coworker Victor about it, and got him just as interested in doing this data analysis!</description>
+    </item>
     
     <item>
       <title>Jupyter Notebook Tips</title>
