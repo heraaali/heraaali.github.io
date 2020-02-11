@@ -9,7 +9,7 @@ reading = "test"
 
 +++
 
-Currently reading: _The Body Keeps the Score_ by Bessel van der Kolk and _You Think It, I'll Say It_ by Curtis Sittenfeld and _The Graveyard Book_ by Neil Gaiman.
+Currently reading: _The Last House Guest_ by Megan Miranda
 
 Books read in 2020:
 
@@ -18,5 +18,8 @@ _Recursion_ by Blake Crouch — 5/5 stars
 _Whisper Network_ by Chandler Baker — 3.5/5 stars  
 _Dark Matter_ by Blake Crouch — 4/5 stars  
 _The Turn of the Key_ by Ruth Ware - 2/5 stars  
+_Conviction_ by Denise Mina -- 3.5/5 stars  
+_The Proposal_ by Jasmine Guillory -- 3/5 stars  
+_Magic for Liars_ by Sarah Gailey -- 4/5 stars
 
-2020 Book Count: **5**
+2020 Book Count: **8**

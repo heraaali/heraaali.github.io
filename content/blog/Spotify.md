@@ -8,9 +8,9 @@ draft = false
 
 +++
 
-After Spotify did their end-of-the-year summary of my listening history, I was inspired to do more analysis on my listening data. Instead of just including the output of my work, I am going to go through my code to provide an easy-to-follow resource if you're a programmer who is new to Python.
+After Spotify did their end-of-the-year summary of my listening history, I was inspired to do more analysis on my listening data. Instead of just including the output of my work, I am going to go through my code to provide an easy-to-follow resource if you're a programmer who is new to Python, although I am assuming familiarity with coding in general.
 
-If you request it, Spotify will let you download a year's worth of listening history. I was so excited by all this data that I told my coworker Victor about it, and got him just as interested in doing this data analysis! I want to give him credit for helping me clean up a couple of my functions, and for giving me the idea to look for skipped and most-skipped songs. 
+If you request it, Spotify will let you download a year's worth of listening history. I told my coworker Victor about my side project and want to give him credit for helping me clean up my ```load_streaming_data``` function, and for giving me the idea to look for skipped and most-skipped songs.
 
 I'm using Jupyter Notebook for this data analysis. Once you download your data, save it into a file named 'data'.
 
@@ -24,7 +24,7 @@ import pandas as pd
 root = pathlib.Path('./data')
 ```
 
-First, let's create a function that will convert all of your streaming history from .json objects into cool pandas data frames!
+First, let's create a function that will convert all of your streaming history from .json objects into data frames we can work with.
 
 ```
 def load_streaming_data(root):
@@ -32,7 +32,7 @@ def load_streaming_data(root):
     return pd.concat(dfs).reset_index(drop=True)
 ```
 
-Now, let's select our 'endTime' column in our data frame and account for your timezone.
+Now, let's select our 'endTime' column and account for your timezone.
 
 ```
 df = load_streaming_data(root)
@@ -43,10 +43,11 @@ df['endTime'].dt.tz_localize('UTC', ambiguous='infer').dt.tz_convert('US/Pacific
 
 ## Skipped Songs
 
-So our data frame right now has four columns: endTime, artistName, trackName, and msPlayed. Let's add one more column -- skipped songs. Let's say the criteria for a song to be skipped is if you have listened to less than 30 seconds of it.
+So right now, we have four columns: endTime, artistName, trackName, and msPlayed. Let's add one more column -- skipped songs. Let's say the criteria for a song to be skipped is if you have listened to less than 30 seconds of it.
 
 ```
-df['Skipped'] = df['msPlayed'] < 1000 * 30 #remember that we are given milliseconds
+# remember to multiply by 1000 since we are given milliseconds
+df['Skipped'] = df['msPlayed'] < 1000 * 30
 ```
 
 Okay, so now we have a column that tells us whether or not a song is skipped. Let's take this information and find out the percentage that each song in our listening history has been skipped.
@@ -80,10 +81,11 @@ The first five on this list are the same as the top five songs that Spotify told
 ## Most Skipped-To Songs
 Now that we know which songs are the most skipped, it begs the question..are there certain songs that you'll often skip to? Let's find out!
 
-The logic behind finding these songs is that if the previous song was skipped, the current song wasn't skipped.
-
 ```
-m = df['Skipped'].shift(1) & ~df['Skipped']
+is_current_song_skipped = ~df['Skipped']
+was_previous_song_skipped = df['Skipped'].shift(1)
+m = is_current_song_skipped & was_previous_song_skipped
+
 df_skipped_to = df[m]
 
 grp = df_skipped_to.groupby(['artistName', 'trackName'])
@@ -96,8 +98,19 @@ agg.sort_values(ascending=False).head(10)
 
 Interesting! There is some overlap between my most skipped-to songs and my top songs of the year.
 
+Let's take a closer look a the mask I created with the following lines: 
+
+```
+is_current_song_skipped = ~df['Skipped']
+was_previous_song_skipped = df['Skipped'].shift(1)
+m = is_current_song_skipped & was_previous_song_skipped
+```
+
+I found masks to be a confusing concept when I was first learning, so I wanted to explain it further. A mask is an array of boolean values for which a certain condition is met. In these lines, the mask ```m``` is the result of doing the ```&``` (and) operation between the two vectors of ```is_current_song_skipped``` and ```was_previous_song_skipped```. The logic behind this is that if the previous song was skipped, then the current song wasn't skipped. Once I have this boolean vector, I create the ```df_skipped_to``` data frame by selecting all the songs in the original data frame, ```df```, where the values of the indices at the vector ```m``` are true, giving us all the skipped-to songs. 
+
+
 ## Map time-of-day to most-listened-to songs
-I came up with categories for time of day and included only non-skipped songs. In my original calculations, I had included all songs, and it wasn't until my coworker(/collaborator) Victor pointed it out that I realized it makes more sense for my analysis to only look for non-skipped songs. Since I am aiming to find out which songs I'm listening to at a given time of day, I probably want to look at the results of songs I was _actually_ listening to. This is a good example of how data analysis isn't straightforward; changing the parameters of what data you're analyzing can shape your results in ways you don't realize. 
+For these results, I came up with categories for time of day and included only non-skipped songs. In my original calculations, I had included all songs, and it wasn't until my coworker/collaborator Victor pointed it out that I realized it makes more sense for my analysis to only look for non-skipped songs. Since I am aiming to find out which songs I'm listening to at a given time of day, I probably want to look at the results of songs I was _actually_ listening to. This is a good example of how data analysis isn't straightforward; changing the parameters of what data you're analyzing can shape your results in ways you don't realize. 
 
 
 **morning:** 6:00AM-11:59AM  
@@ -198,4 +211,4 @@ time_and_day(df, 'afternoon', 'Thursday')
 ![Thursday afternoon result](/thurs_afternoon.png)
 
 
-And now you've done some basic data analysis on your listening history using Python! There's more that could be done (heatmaps of artists, visualizing time-of-day, flipping the skipped-song parameter to analyze which songs you're likely to skip, etc.), but I'll end this here for now, and maybe do a part 2 with more complex examples.
+And now you've gotten more insight on your listening history! There's more that could be done (heatmaps of artists, visualizing time-of-day, flipping the skipped-song parameter to analyze which songs you're likely to skip, etc.), but I'll end this here for now, and maybe do a part 2 with more complex examples. 
