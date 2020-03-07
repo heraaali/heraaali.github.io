@@ -9,7 +9,8 @@ reading = "test"
 
 +++
 
-Currently reading: _The Last House Guest_ by Megan Miranda
+Currently reading: _Billion Dollar Whale: The Man Who Fooled Wall Street, Hollywood, and the World
+Book_ by Tom Wright
 
 Books read in 2020:
 
@@ -20,6 +21,7 @@ _Dark Matter_ by Blake Crouch — 4/5 stars
 _The Turn of the Key_ by Ruth Ware - 2/5 stars  
 _Conviction_ by Denise Mina -- 3.5/5 stars  
 _The Proposal_ by Jasmine Guillory -- 3/5 stars  
-_Magic for Liars_ by Sarah Gailey -- 4/5 stars
+_Magic for Liars_ by Sarah Gailey -- 4/5 stars  
+_The Last House Guest_ by Megan Miranda -- 2/5 stars
 
-2020 Book Count: **8**
+2020 Book Count: **9**
