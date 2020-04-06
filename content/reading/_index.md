@@ -1,6 +1,6 @@
 +++
 categories = "good reads"
-date = "2020-01-25"
+date = "2020-04-05"
 description = "Join my book club!"
 title = "Good Reads"
 type = ""
@@ -9,7 +9,7 @@ reading = "test"
 
 +++
 
-Currently reading: _Billion Dollar Whale: The Man Who Fooled Wall Street, Hollywood, and the World_ by Tom Wright and _Permanent Record_ by Edward Snowden.
+I have exactly two states: reading a book or looking for a new book to read. I'm currently reading _The Great Glowing Coils of the Universe_ by Joseph Fink and Jeffrey Cranor, and always accepting recommendations.
 
 In order, here are the books I've read in 2020:
 
@@ -26,5 +26,7 @@ _The Sentence is Death_ by Anthony Horowitz -- 5/5 stars
 _Motive v. Opportunity: Miss Marple_ by Agatha Christie -- 5/5 stars (although this is technically a short story)  
 _Mrs. McGinty's Dead_ by Agatha Christie -- 4/5 stars  
 _Welcome to Night Vale_ by Joseph Fink and Jeffrey Cranor -- 4.5/5 stars  
+_Mostly Void, Partially Stars_  by Joseph Fink and Jeffrey Cranor -- 5/5 stars  
 
-2020 Book Count: **13**
+
+2020 Book Count: **14**
