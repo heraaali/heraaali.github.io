@@ -5,10 +5,20 @@
     <link>http://www.heraaali.com/blog/</link>
     <description>Recent content in Blog on Heraa Ali</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Thu, 30 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.heraaali.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Git Cheat Sheet Volume II</title>
+      <link>http://www.heraaali.com/blog/more_git/</link>
+      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.heraaali.com/blog/more_git/</guid>
+      <description>Just can&#39;t Git enough? Below are a list of useful Git commands to reference once you&#39;ve memorized the basics.
+Setup:    Command Description     git config -global user.name &amp;ldquo;First Last&amp;rdquo; Set a name   git config &amp;ndash;global color.ui auto automatic command line coloring for Git   git init Initialize an existing directory as a Git repo   git clone [url] Make a working copy of an entire repository    Rewriting history:    Command Description     git log Show all commits in current branch&#39;s history   git rebase feature-branch Apply commits of a current branch ahead of a specific one    Update from remote repo:    Command Description     git merge other-branch Merge a different branch into your active branch   git diff Preview changes before merging    Undo local changes:    Command Description     git checkout &amp;ndash; example.</description>
+    </item>
     
     <item>
       <title>Spotify Data Analysis</title>
