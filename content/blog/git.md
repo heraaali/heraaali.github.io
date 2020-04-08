@@ -12,14 +12,18 @@ Mastering source control is essential for a software developer, but Git can get 
 
 | Command | Description |
 |---------|-------------|
+git clone | Check out a repository
+git add example.txt | Add the changed file to staging.
+git commit -m "Commit message" | Commit staged changes
+git commit --amend | Combine staged changes with the previous commit to replace the last commit
+git push origin master | Send changes to the master branch of your remote repo
 git status | Check the status of the current branch.
 git branch | List the current branches.
+git checkout -b feature-branch | Create a new feature branch.
+git checkout other-branch | Switch from one branch to another.
+git branch -d feature-branch | Delete the feature branch
 git pull | Get changes from a remote branch.
-git add | Add the changed file to the commit.
 git fetch | Fetch remote branches
 git fetch -p | Fetch remote branches and clean up references to deleted remote branches.
-git push -u origin remote-branch | Create a remote branch from a local branch.
-git checkout -b feature-branch | Create a new feature branch.
 git reset | Undo all adds.
 git reset ~HEAD | Reset to last checkout.
-git commit --amend | combine staged changes with the previous commit to replace the last commit

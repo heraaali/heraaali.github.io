@@ -12,7 +12,7 @@
 <meta itemprop="description" content="A brief guide to using git with the command line.">
 <meta itemprop="datePublished" content="2019-12-11T00:00:00&#43;00:00" />
 <meta itemprop="dateModified" content="2019-12-11T00:00:00&#43;00:00" />
-<meta itemprop="wordCount" content="182">
+<meta itemprop="wordCount" content="158">
 
 
 
@@ -78,7 +78,7 @@
     "datePublished": "2019-12-11 00:00:00 \x2b0000 UTC",
     "dateModified" : "2019-12-11 00:00:00 \x2b0000 UTC",
     "url" : "http:\/\/www.heraaali.com\/blog\/git\/",
-    "wordCount" : "182",
+    "wordCount" : "158",
     "keywords" : [ "Blog" ]
 }
 </script>
@@ -246,12 +246,12 @@
 </thead>
 <tbody>
 <tr>
-<td>git clone</td>
-<td>Check out a repository</td>
+<td>git status</td>
+<td>Check the status of the current branch.</td>
 </tr>
 <tr>
-<td>git add example.txt</td>
-<td>Add the changed file to staging.</td>
+<td>git add</td>
+<td>Add the changed file to the commit.</td>
 </tr>
 <tr>
 <td>git commit -m &ldquo;Commit message&rdquo;</td>
@@ -259,31 +259,11 @@
 </tr>
 <tr>
 <td>git commit &ndash;amend</td>
-<td>Combine staged changes with the previous commit to replace the last commit</td>
-</tr>
-<tr>
-<td>git push origin master</td>
-<td>Send changes to the master branch of your remote repo</td>
-</tr>
-<tr>
-<td>git status</td>
-<td>Check the status of the current branch.</td>
+<td>combine staged changes with the previous commit to replace the last commit</td>
 </tr>
 <tr>
 <td>git branch</td>
 <td>List the current branches.</td>
-</tr>
-<tr>
-<td>git checkout -b feature-branch</td>
-<td>Create a new feature branch.</td>
-</tr>
-<tr>
-<td>git checkout other-branch</td>
-<td>Switch from one branch to another.</td>
-</tr>
-<tr>
-<td>git branch -d feature-branch</td>
-<td>Delete the feature branch</td>
 </tr>
 <tr>
 <td>git pull</td>
@@ -296,6 +276,14 @@
 <tr>
 <td>git fetch -p</td>
 <td>Fetch remote branches and clean up references to deleted remote branches.</td>
+</tr>
+<tr>
+<td>git push -u origin remote-branch</td>
+<td>Create a remote branch from a local branch.</td>
+</tr>
+<tr>
+<td>git checkout -b feature-branch</td>
+<td>Create a new feature branch.</td>
 </tr>
 <tr>
 <td>git reset</td>

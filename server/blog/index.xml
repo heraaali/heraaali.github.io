@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Heraa Ali</title>
-    <link>http://www.heraaali.com/</link>
-    <description>Recent content on Heraa Ali</description>
+    <title>Blog on Heraa Ali</title>
+    <link>http://www.heraaali.com/blog/</link>
+    <description>Recent content in Blog on Heraa Ali</description>
     <generator>Hugo -- gohugo.io</generator>
     <lastBuildDate>Thu, 30 Jan 2020 00:00:00 +0000</lastBuildDate>
     
-	<atom:link href="http://www.heraaali.com/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="http://www.heraaali.com/blog/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -41,24 +41,13 @@ GitHub Pages allows you to host a static site, either on the github.io domain or
     </item>
     
     <item>
-      <title>About</title>
-      <link>http://www.heraaali.com/about/</link>
-      <pubDate>Wed, 11 Dec 2019 00:00:00 +0000</pubDate>
-      
-      <guid>http://www.heraaali.com/about/</guid>
-      <description>Hi, I’m Heraa.
-I am a software engineer at Intel. Before that, I studied applied mathematics at the University of California, Berkeley. I made this website to talk about side projects &amp;amp; share tutorials from what I&#39;ve learned along the way. More than anything, I am interested in exploring the space where math, coding, and communication meet up and hang out.
-When I’m not writing code, you can find me doing yoga, reading, or traveling somewhere new.</description>
-    </item>
-    
-    <item>
       <title>Git Cheat Sheet</title>
       <link>http://www.heraaali.com/blog/git/</link>
       <pubDate>Wed, 11 Dec 2019 00:00:00 +0000</pubDate>
       
       <guid>http://www.heraaali.com/blog/git/</guid>
       <description>Mastering source control is essential for a software developer, but Git can get a little confusing when you’re first starting out. Here is a list of commands to use as a reference &amp;ndash; I&#39;ve included all the basics you would need to use Git from the command line.
-   Command Description     git clone Check out a repository   git add example.txt Add the changed file to staging.</description>
+   Command Description     git status Check the status of the current branch.   git add Add the changed file to the commit.</description>
     </item>
     
   </channel>

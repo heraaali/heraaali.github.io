@@ -58,7 +58,7 @@ When I’m not writing code, you can find me doing yoga, reading, or traveling s
       
       <guid>http://www.heraaali.com/blog/git/</guid>
       <description>Mastering source control is essential for a software developer, but Git can get a little confusing when you’re first starting out. Here is a list of commands to use as a reference &amp;ndash; I&#39;ve included all the basics you would need to use Git from the command line.
-   Command Description     git status Check the status of the current branch.   git branch List the current branches.</description>
+   Command Description     git clone Check out a repository   git add example.txt Add the changed file to staging.</description>
     </item>
     
   </channel>
