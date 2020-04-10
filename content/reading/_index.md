@@ -27,6 +27,6 @@ _Motive v. Opportunity: Miss Marple_ by Agatha Christie -- 5/5 stars (although t
 _Mrs. McGinty's Dead_ by Agatha Christie -- 4/5 stars  
 _Welcome to Night Vale_ by Joseph Fink and Jeffrey Cranor -- 4.5/5 stars  
 _Mostly Void, Partially Stars_  by Joseph Fink and Jeffrey Cranor -- 5/5 stars  
+_It Devours!_  by Joseph Fink and Jeffrey Cranor -- 5/5 stars  
 
-
-2020 Book Count: **14**
+2020 Book Count: **15**

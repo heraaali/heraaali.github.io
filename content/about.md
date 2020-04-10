@@ -9,4 +9,4 @@ Hi, I’m Heraa.
 
 I am a software engineer at Intel. Before that, I studied applied mathematics at the University of California, Berkeley. I am interested in the space where math, coding, and communication meet up and hang out. When I am not writing code, you can find me doing yoga, [reading](/reading), or traveling somewhere new. 
 
-And I'm happy just because.
+I'm happy just because.
