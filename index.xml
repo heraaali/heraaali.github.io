@@ -5,10 +5,23 @@
     <link>http://www.heraaali.com/</link>
     <description>Recent content on Heraa Ali</description>
     <generator>Hugo -- gohugo.io</generator>
-    <lastBuildDate>Tue, 07 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 29 Jun 2020 00:00:00 +0000</lastBuildDate>
     
 	<atom:link href="http://www.heraaali.com/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Math Monday: Calculating Percentages</title>
+      <link>http://www.heraaali.com/blog/math-fun/</link>
+      <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.heraaali.com/blog/math-fun/</guid>
+      <description>Math is intrinsically a creative subject, but most schools teach rote memorization instead of encouraging out-of-the-box thinking. What I love about math is how approaching a problem from a different perspective can simplify it significantly. For example, let&#39;s look at percentages.
+Understanding Percentages Quick, what&#39;s 50% of 18? It probably didn&#39;t take you long to come up with 9.
+What&#39;s 18% of 50?
+...
+That answer might have taken you longer, but 18% of 50 is also 9!</description>
+    </item>
     
     <item>
       <title>Git Cheat Sheet Volume II</title>

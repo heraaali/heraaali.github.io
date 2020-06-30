@@ -19,4 +19,5 @@
     {{ i18n "attribution" . | safeHTML }}
   </p>
 </footer>
+{{ if .Params.katex}}{{ partial "katex.html" . }}{{ end }}
 <a id="back-to-top" href="#" class="fas fa-arrow-up fa-2x"></a>
