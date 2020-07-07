@@ -1,0 +1,568 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+<title>Spotify Data Analysis - Heraa Ali</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+
+  <meta name="generator" content="Hugo 0.61.0" />
+  <meta itemprop="name" content="Spotify Data Analysis">
+<meta itemprop="description" content="Tutorial on how to analyze your Spotify data.">
+<meta itemprop="datePublished" content="2020-01-30T00:00:00&#43;00:00" />
+<meta itemprop="dateModified" content="2020-01-30T00:00:00&#43;00:00" />
+<meta itemprop="wordCount" content="1058">
+
+
+
+<meta itemprop="keywords" content="" />
+  <meta property="og:title" content="Spotify Data Analysis" />
+<meta property="og:description" content="Tutorial on how to analyze your Spotify data." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://www.heraaali.com/blog/spotify/" />
+<meta property="article:published_time" content="2020-01-30T00:00:00+00:00" />
+<meta property="article:modified_time" content="2020-01-30T00:00:00+00:00" />
+
+  <meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="Spotify Data Analysis"/>
+<meta name="twitter:description" content="Tutorial on how to analyze your Spotify data."/>
+<meta name="twitter:site" content="@HeraaAli"/>
+
+  
+
+  <link rel="stylesheet"
+      href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/styles/github.min.css">
+  
+    
+      <link rel="stylesheet" href="/css/normalize.css">
+      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway:400,800,900|Source+Sans+Pro:400,700">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css">
+      <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.9.0/css/all.css" integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.css" />
+      
+      
+      <link rel="stylesheet" href="/css/main.min.6d22afd25890242552a63002032532e43f59b91eea454409de37a6bc3cc90b90.css" integrity="sha256-bSKv0liQJCVSpjACAyUy5D9ZuR7qRUQJ3jemvDzJC5A=">
+      <link rel="stylesheet" href="/css/add-on.css">
+    
+  
+  
+  
+  
+    
+  
+</head>
+
+  <body>
+    
+<header id="site-header">
+  <script type="application/ld+json">
+{
+    "@context" : "http://schema.org",
+    "@type" : "BlogPosting",
+    "mainEntityOfPage": {
+         "@type": "WebPage",
+         "@id": "http:\/\/www.heraaali.com"
+    },
+    "articleSection" : "blog",
+    "name" : "Spotify Data Analysis",
+    "headline" : "Spotify Data Analysis",
+    "description" : "Tutorial on how to analyze your Spotify data.",
+    "inLanguage" : "en-US",
+    "author" : "",
+    "creator" : "",
+    "publisher": "",
+    "accountablePerson" : "",
+    "copyrightHolder" : "",
+    "copyrightYear" : "2020",
+    "datePublished": "2020-01-30 00:00:00 \x2b0000 UTC",
+    "dateModified" : "2020-01-30 00:00:00 \x2b0000 UTC",
+    "url" : "http:\/\/www.heraaali.com\/blog\/spotify\/",
+    "wordCount" : "1058",
+    "keywords" : [ "Blog" ]
+}
+</script>
+  <nav id="site-nav">
+    <h1 class="nav-title">
+      <a href="/">
+        
+          
+            Blog
+          
+        
+      </a>
+    </h1>
+    <menu id="site-nav-menu" class="flyout-menu">
+      
+        
+          
+          
+            <a href="/" class="link"><i class='fa fa-home'></i> Home</a>
+          
+        
+      
+        
+          
+          
+            <a href="/about/" class="link"><i class='far fa-id-card'></i> About</a>
+          
+        
+      
+        
+          
+          
+            <a href="/blog/" class="link"><i class='far fa-newspaper'></i> Blog</a>
+          
+        
+      
+        
+          
+          
+            <a href="/categories/" class="link"><i class='fas fa-sitemap'></i> Categories</a>
+          
+        
+      
+        
+          
+          
+            <a href="/reading/" class="link"><i class='fas fa-book'></i> Currently Reading</a>
+          
+        
+      
+      
+      
+
+    </menu>
+    
+
+    
+    
+    <a href="#site-nav" class="nav-toggle"><i class="fas fa-bars fa-2x"></i></a>
+  </nav>
+  
+  
+</header>
+
+    <div id="wrapper">
+      <section id="site-intro">
+  <a href="/"><img src="/img/main/logo.jpg" class="circle" width="100px" alt="Hi there!" /></a>
+  <header>
+    <h1>Heraa Ali</h1>
+  </header>
+  <main>
+    <p>Software developer, writer, & enthusiast enthusiast.</p>
+  </main>
+  
+    <footer>
+      <ul class="socnet-icons">
+        
+
+        <li><a href="//github.com/heraaali" target="_blank" rel="noopener" title="GitHub" class="fab fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//linkedin.com/in/Heraa-Ali" target="_blank" rel="noopener" title="LinkedIn" class="fab fa-linkedin"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//twitter.com/HeraaAli" target="_blank" rel="noopener" title="Twitter" class="fab fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+
+<li><a href="mailto:hello@heraaali.com" target="_blank" title="Email" class="far fa-envelope"></a></li>
+
+      </ul>
+    </footer>
+  
+</section>
+
+      <main id="site-main">
+        <article class="post">
+  <header>
+  <div class="title">
+    
+        <h2><a href="/blog/spotify/">Spotify Data Analysis</a></h2>
+    
+    
+        <p>Tutorial on how to analyze your Spotify data.</p>
+    
+</div>
+  <div class="meta">
+    <time class="published" datetime="2020-01-30 00:00:00 &#43;0000 UTC">
+      January 30, 2020
+    </time>
+    <span class="author"></span>
+    
+      <p>5 minutes read</p>
+    
+  </div>
+</header>
+
+  <section id="socnet-share">
+    
+
+
+
+
+
+  </section>
+  
+
+  <div class="content">
+    <p>After Spotify did their end-of-the-year summary of my listening history, I was inspired to do more analysis on my listening data. Instead of just including the output of my work, I am going to go through my code to provide an easy-to-follow resource if you're a programmer who is new to Python, although I am assuming familiarity with coding in general.</p>
+<p>If you request it, Spotify will let you download a year's worth of listening history. I told my coworker Victor about my side project and want to give him credit for helping me clean up my <code>load_streaming_data</code> function, and for giving me the idea to look for skipped and most-skipped songs.</p>
+<p>I'm using Jupyter Notebook for this data analysis. Once you download your data, save it into a file named &lsquo;data&rsquo;.</p>
+<pre><code>import pathlib
+
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+
+root = pathlib.Path('./data')
+</code></pre><p>First, let's create a function that will convert all of your streaming history from .json objects into data frames we can work with.</p>
+<pre><code>def load_streaming_data(root):
+    dfs = [pd.read_json(p, encoding='utf-8') for p in root.glob('StreamingHistory*.json')]
+    return pd.concat(dfs).reset_index(drop=True)
+</code></pre><p>Now, let's select our &lsquo;endTime&rsquo; column and account for your timezone.</p>
+<pre><code>df = load_streaming_data(root)
+df['endTime'] = pd.to_datetime(df['endTime'])
+
+df['endTime'].dt.tz_localize('UTC', ambiguous='infer').dt.tz_convert('US/Pacific')
+</code></pre><h2 id="skipped-songs">Skipped Songs</h2>
+<p>So right now, we have four columns: endTime, artistName, trackName, and msPlayed. Let's add one more column &ndash; skipped songs. Let's say the criteria for a song to be skipped is if you have listened to less than 30 seconds of it.</p>
+<pre><code># remember to multiply by 1000 since we are given milliseconds
+df['Skipped'] = df['msPlayed'] &lt; 1000 * 30
+</code></pre><p>Okay, so now we have a column that tells us whether or not a song is skipped. Let's take this information and find out the percentage that each song in our listening history has been skipped.</p>
+<pre><code>grp = df.groupby(['artistName', 'trackName'])
+
+# only include songs that have at least 15 plays
+df_agg = (grp['Skipped'].sum() / grp.size()) [grp.size() &gt; 15]
+
+df_agg.sort_values(ascending=False).head(10)
+</code></pre><p><img src="/most_skipped.png" alt="Example image"></p>
+<p>This is the top ten most-skipped songs that I actually listen to (which is why I only included songs that I have played at least 15 times).</p>
+<h2 id="top-songs">Top Songs</h2>
+<p>Spotify gives your top five songs in their wrap-up. I was curious about my top ten songs, and wanted to see if my top-five ranking would match up with Spotify's.</p>
+<pre><code>df_played = df[df['Skipped'] == False] 
+df_played.groupby(['artistName', 'trackName']).size().sort_values(ascending=False).head(10)
+</code></pre><p><img src="/top_songs.png" alt="top songs"></p>
+<p>The first five on this list are the same as the top five songs that Spotify told me!</p>
+<h2 id="most-skipped-to-songs">Most Skipped-To Songs</h2>
+<p>Now that we know which songs are the most skipped, it begs the question..are there certain songs that you'll often skip to? Let's find out!</p>
+<pre><code>is_current_song_skipped = ~df['Skipped']
+was_previous_song_skipped = df['Skipped'].shift(1)
+m = is_current_song_skipped &amp; was_previous_song_skipped
+
+df_skipped_to = df[m]
+
+grp = df_skipped_to.groupby(['artistName', 'trackName'])
+
+agg = grp.size()
+agg.sort_values(ascending=False).head(10)
+</code></pre><p><img src="/skipped_to_songs.png" alt="most skipped-to songs"></p>
+<p>Interesting! There is some overlap between my most skipped-to songs and my top songs of the year.</p>
+<p>Let's take a closer look a the mask I created with the following lines:</p>
+<pre><code>is_current_song_skipped = ~df['Skipped']
+was_previous_song_skipped = df['Skipped'].shift(1)
+m = is_current_song_skipped &amp; was_previous_song_skipped
+</code></pre><p>I found masks to be a confusing concept when I was first learning, so I wanted to explain it further. A mask is an array of boolean values for which a certain condition is met. In these lines, the mask <code>m</code> is the result of doing the <code>&amp;</code> (and) operation between the two vectors of <code>is_current_song_skipped</code> and <code>was_previous_song_skipped</code>. The logic behind this is that if the previous song was skipped, then the current song wasn't skipped. Once I have this boolean vector, I create the <code>df_skipped_to</code> data frame by selecting all the songs in the original data frame, <code>df</code>, where the values of the indices at the vector <code>m</code> are true, giving us all the skipped-to songs.</p>
+<h2 id="map-time-of-day-to-most-listened-to-songs">Map time-of-day to most-listened-to songs</h2>
+<p>For these results, I came up with categories for time of day and included only non-skipped songs. In my original calculations, I had included all songs, and it wasn't until my coworker/collaborator Victor pointed it out that I realized it makes more sense for my analysis to only look for non-skipped songs. Since I am aiming to find out which songs I'm listening to at a given time of day, I probably want to look at the results of songs I was <em>actually</em> listening to. This is a good example of how data analysis isn't straightforward; changing the parameters of what data you're analyzing can shape your results in ways you don't realize.</p>
+<p><strong>morning:</strong> 6:00AM-11:59AM<br>
+<strong>afternoon:</strong> 12:00PM-5:59PM<br>
+<strong>evening:</strong> 6:00PM-11:59PM<br>
+<strong>late-night:</strong> 12AM-5:59AM</p>
+<pre><code>df_played = df[df['Skipped'] == False]
+times = df_played['endTime'].dt.time
+</code></pre><pre><code>def time_analysis(df, time_of_day):    
+    df_played = df[df['Skipped'] == False] 
+    times = df_played['endTime'].dt.time
+    
+    # could turn into a switch statement to make it faster
+    if time_of_day.lower() == 'morning':
+        start = &quot;06:00:00&quot;
+        end = &quot;11:59:59&quot;
+    elif time_of_day.lower() == 'afternoon':
+        start = &quot;11:59:59&quot;
+        end = &quot;17:59:59&quot;        
+    elif time_of_day.lower() == 'evening':
+        start = &quot;17:59:59&quot;
+        end = &quot;23:59:59&quot;
+    elif time_of_day.lower() == 'night':
+        start = &quot;00:00:00&quot;
+        end = &quot;05:59:59&quot;
+    else:
+        return &quot;error!!! options are 'morning', 'afternoon', 'evening', 'night'&quot;
+        
+    mask = (times &gt; pd.to_datetime(start).time()) &amp; (times &lt;= pd.to_datetime(end).time())
+    df_calc = df_played[mask]
+
+    grouped = df_calc.groupby(['artistName', 'trackName'])
+    aggr = grouped.size()
+    return aggr.sort_values(ascending=False).head(10)
+</code></pre><p>So, for our songs listened to in the morning:</p>
+<pre><code>time_analysis(df, 'morning')
+</code></pre><p><img src="/morning.png" alt="morning result"></p>
+<p>versus the songs I listened to in the evening:</p>
+<pre><code>time_analysis(df, 'evening')
+</code></pre><p><img src="/evening.png" alt="evening result"></p>
+<p>The natural next step was to write a function that does this calculation for the time of day and day of the week. Here is my version below:</p>
+<pre><code>def time_and_day(df, time, day):    
+    df_played = df[df['Skipped'] == False] 
+    times = df_played['endTime'].dt.time
+    
+    if time.lower() == 'morning':
+        start = &quot;06:00:00&quot;
+        end = &quot;11:59:59&quot;
+    elif time.lower() == 'afternoon':
+        start = &quot;11:59:59&quot;
+        end = &quot;17:59:59&quot;        
+    elif time.lower() == 'evening':
+        start = &quot;17:59:59&quot;
+        end = &quot;23:59:59&quot;
+    elif time.lower() == 'night':
+        start = &quot;00:00:00&quot;
+        end = &quot;05:59:59&quot;
+    else:
+        return &quot;error!!! options are 'morning', 'afternoon', 'evening', 'night'&quot;
+        
+    mask = (df_played['endTime'].dt.day_name() == day) &amp; (times &gt; pd.to_datetime(start).time()) &amp; (times &lt;= pd.to_datetime(end).time())
+    df_calc = df_played[mask]
+
+    grouped = df_calc.groupby(['artistName', 'trackName'])
+    aggr = grouped.size()
+    return aggr.sort_values(ascending=False).head(10)
+</code></pre><p>Here is what I listen to on a Monday morning:</p>
+<pre><code>time_and_day(df, 'morning', 'Monday')
+</code></pre><p><img src="/monday_morning.png" alt="Monday morning result"></p>
+<p>versus what songs I was most listening to on a Thursday afternoon:</p>
+<pre><code>time_and_day(df, 'afternoon', 'Thursday')
+</code></pre><p><img src="/thurs_afternoon.png" alt="Thursday afternoon result"></p>
+<p>And now you've gotten more insight on your listening history! There's more that could be done (heatmaps of artists, visualizing time-of-day, flipping the skipped-song parameter to analyze which songs you're likely to skip, etc.), but I'll end this here for now, and maybe do a part 2 with more complex examples.</p>
+
+  </div>
+  <footer>
+    <ul class="stats">
+  
+    
+    
+      <li class="categories">
+        <ul>
+          
+            
+            <li><a class="article-category-link" href="http://www.heraaali.com/categories/tutorial">tutorial</a></li>
+          
+        </ul>
+      </li>
+    
+  
+  
+    <li class="tags">
+      <ul>
+        <li>None</li>
+      </ul>
+    </li>
+  
+</ul>
+
+  </footer>
+</article>
+
+
+<div class="pagination">
+  
+    <a href="/blog/jupyter/" class="button"><div class="previous"><div>Jupyter Notebook Tips</div></div></a>
+  
+  
+    <a href="/blog/more_git/" class="button"><div class="next"><div>Git Cheat Sheet Volume II</div></div></a>
+  
+</div>
+
+
+      </main>
+      <section id="site-sidebar">
+  
+    <section id="recent-posts">
+      <header>
+        <h1>Recent posts</h1>
+      </header>
+      
+      <article class="mini-post">
+        <section>
+          
+
+        </section>
+        <header>
+          <h1><a href="/blog/visual-proof/">Math Monday: Introducing A Visual Proof</a></h1>
+          <time class="published" datetime="">July 6, 2020</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+        <section>
+          
+
+        </section>
+        <header>
+          <h1><a href="/blog/math-fun/">Math Monday: Calculating Percentages</a></h1>
+          <time class="published" datetime="">June 29, 2020</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+        <section>
+          
+
+        </section>
+        <header>
+          <h1><a href="/blog/more_git/">Git Cheat Sheet Volume II</a></h1>
+          <time class="published" datetime="">April 7, 2020</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+        <section>
+          
+
+        </section>
+        <header>
+          <h1><a href="/blog/spotify/">Spotify Data Analysis</a></h1>
+          <time class="published" datetime="">January 30, 2020</time>
+        </header>
+      </article>
+      
+      <article class="mini-post">
+        <section>
+          
+
+        </section>
+        <header>
+          <h1><a href="/blog/jupyter/">Jupyter Notebook Tips</a></h1>
+          <time class="published" datetime="">January 2, 2020</time>
+        </header>
+      </article>
+      
+      
+        <a href="/blog/" class="button">See more</a>
+      
+    </section>
+  
+
+  
+    
+      <section id="categories">
+        <header>
+          <h1><a href="/categories">Categories</a></h1>
+        </header>
+        <ul>
+          
+            
+          
+          
+          <li>
+            
+              <a href="/categories/shortcuts-and-commands/">shortcuts-and-commands<span class="count">3</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/math-monday/">math-monday<span class="count">2</span></a>
+            
+          
+          <li>
+            
+              <a href="/categories/tutorial/">tutorial<span class="count">2</span></a>
+            
+          
+          </li>
+        </ul>
+      </section>
+    
+  
+
+  <section id="mini-bio">
+    <header>
+      <h1>About</h1>
+    </header>
+    <p></p>
+    <footer>
+      <a href="/about" class="button">Learn More</a>
+    </footer>
+  </section>
+</section>
+
+      <footer id="site-footer">
+  
+  <p class="copyright">
+    
+      &copy; 2020
+      
+        Heraa Ali
+      
+    . <br>
+    Theme: <a href='https://github.com/pacollins/hugo-future-imperfect-slim' target='_blank' rel='noopener'>Hugo Future Imperfect Slim</a><br>A <a href='https://html5up.net/future-imperfect' target='_blank' rel='noopener'>HTML5 UP port</a> | Powered by <a href='https://gohugo.io/' title='0.61.0' target='_blank' rel='noopener'>Hugo</a>
+  </p>
+</footer>
+
+<a id="back-to-top" href="#" class="fas fa-arrow-up fa-2x"></a>
+
+      
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/highlight.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/html.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/css.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/js.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.6/languages/toml.min.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+
+
+  
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/skel/3.0.1/skel.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.3.5/jquery.fancybox.min.js"></script>
+  <script src=/js/util.js></script>
+  <script src=/js/main.js></script>
+  <script src=/js/add-on.js></script>
+  
+
+
+
+
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+	ga('create', 'UA-145071839-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+<script async src='https://www.google-analytics.com/analytics.js'></script>
+
+
+    </div>
+  </body>
+</html>

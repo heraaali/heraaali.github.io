@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>shortcuts and commands on Heraa Ali</title>
+    <link>http://www.heraaali.com/categories/shortcuts-and-commands/</link>
+    <description>Recent content in shortcuts and commands on Heraa Ali</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Tue, 07 Apr 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://www.heraaali.com/categories/shortcuts-and-commands/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Git Cheat Sheet Volume II</title>
+      <link>http://www.heraaali.com/blog/more_git/</link>
+      <pubDate>Tue, 07 Apr 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.heraaali.com/blog/more_git/</guid>
+      <description>Just can&#39;t Git enough? Below are a list of useful Git commands to reference once you&#39;ve memorized the basics.
+Setup:    Command Description     git config -global user.name &amp;ldquo;First Last&amp;rdquo; Set a name   git config &amp;ndash;global color.ui auto automatic command line coloring for Git   git init Initialize an existing directory as a Git repo   git clone [url] Make a working copy of an entire repository    Rewriting history:    Command Description     git log Show all commits in current branch&#39;s history   git rebase feature-branch Apply commits of a current branch ahead of a specific one    Update from remote repo:    Command Description     git merge other-branch Merge a different branch into your active branch   git diff Preview changes before merging    Undo local changes:    Command Description     git checkout &amp;ndash; example.</description>
+    </item>
+    
+    <item>
+      <title>Jupyter Notebook Tips</title>
+      <link>http://www.heraaali.com/blog/jupyter/</link>
+      <pubDate>Thu, 02 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.heraaali.com/blog/jupyter/</guid>
+      <description>I use Jupyter Notebook both at my day job and for my own projects - if you&#39;ve used it, you know it&#39;s a great tool for data cleaning, visualization, and quick scratch work. And I discovered shortcuts for it entirely by accident: I hit D twice and, to my horror, deleted a cell. Can’t win them all, but you can learn a host of useful shortcuts!
+Note Jupyter Notebook has two different keyboard input modes.</description>
+    </item>
+    
+    <item>
+      <title>Git Cheat Sheet</title>
+      <link>http://www.heraaali.com/blog/git/</link>
+      <pubDate>Wed, 11 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>http://www.heraaali.com/blog/git/</guid>
+      <description>Mastering source control is essential for a software developer, but Git can get a little confusing when you’re first starting out. Here is a list of commands to use as a reference &amp;ndash; I&#39;ve included all the basics you would need to use Git from the command line.
+   Command Description     git clone Check out a repository   git add example.txt Add the changed file to staging.</description>
+    </item>
+    
+  </channel>
+</rss>
