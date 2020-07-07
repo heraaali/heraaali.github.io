@@ -33,7 +33,8 @@ In order, here are the books I've read in 2020:
 18.  _The Body Keeps the Score_ by Bessel Van der Folk -- 5/5 stars  
 19. _But What If We're Wrong?_ by Chuck Klosterman -- 3/5 stars  
 20. _Triggers_ by David Richo -- 3/5 stars  
-21. _The Drunkard's Walk: How Randomness Rules Our Lives_ -- 4/5 stars  
-22. _This Is How You Lose The Time War_ -- 2/5 stars  
+21. _The Drunkard's Walk: How Randomness Rules Our Lives_ by Leonard Mlodinow -- 4/5 stars  
+22. _This Is How You Lose The Time War_ by Amal El-Mohtar -- 2/5 stars  
+23. _The Alchemist_ by Paulo Coelho -- 5/5 stars  
 
 And I am always accepting recommendations!
