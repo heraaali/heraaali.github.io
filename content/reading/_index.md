@@ -9,7 +9,7 @@ reading = "test"
 
 +++
 
-I have exactly two states: reading a book or looking for a new book to read. I'm currently reading _The Buying of Lot 37: Welcome to Night Vale Episodes, Vol. 3_ by Joseph Fink and Jeffrey Cranor.
+I have exactly two states: reading a book or looking for a new book to read. 
 
 In order, here are the books I've read in 2020:
 
