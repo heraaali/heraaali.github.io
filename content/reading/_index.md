@@ -9,7 +9,7 @@ reading = "test"
 
 +++
 
-I have exactly two states: reading a book or looking for a new book to read. 
+I have exactly two states: reading a book or looking for a new book to read. I am currently reading _The Innovation Stack_ by Jim McKelvey, _Conspiracy: Peter Thiel, Hulk Hogan, Gawker, and the Anatomy of Intrigue_ by Ryan Holiday, and _Designing Your Life_ by Bill Burnett.
 
 In order, here are the books I've read in 2020:
 
@@ -36,5 +36,6 @@ In order, here are the books I've read in 2020:
 21. _The Drunkard's Walk: How Randomness Rules Our Lives_ by Leonard Mlodinow -- 4/5 stars  
 22. _This Is How You Lose The Time War_ by Amal El-Mohtar -- 2/5 stars  
 23. _The Alchemist_ by Paulo Coelho -- 5/5 stars  
+24. _No Filter: The Inside Story of Instagram_ by Sarah Friar -- 4/5 stars  
 
-And I am always accepting recommendations!
+And I am always accepting recommendations! 
